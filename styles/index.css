@@ -50,6 +50,7 @@ body {
 
 .youtube {
     transition: transform 3s;
+    margin-top: 60px;
 }
 
 .youtube:hover {
@@ -70,7 +71,7 @@ body {
 }
 
 .clock {
-    margin-top: 30px; 
+    margin-top: 60px; 
 }
 
 .clock svg {
@@ -84,4 +85,9 @@ body {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.animate__animated {
+    animation-iteration-count: 10;
+    
 }
